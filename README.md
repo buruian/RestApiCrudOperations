@@ -4,11 +4,10 @@ Aceasta aplicatie expune la dispozitie executarea operatilor CRUD asupra entitat
 
 Daca accesezidin reteaua bass atunci poti utiliza (http://192.168.14.102:8080) pentru a testa.
 
-Endpoints :  
+Endpoints :  /user/add  - adauga un nou utilizator (HTTP method POST)
+
              /user/all  - returneaza toti utilizatori (HTTP method GET)
-             
-              /user/add  - adauga un nou utilizator (HTTP method POST)
-              
+                          
              /user/{id} - returneaza utilizator dupa id (HTTP method GET)
              
              /user/update - actualizeaza un utilizator (HTTP method PUT)
